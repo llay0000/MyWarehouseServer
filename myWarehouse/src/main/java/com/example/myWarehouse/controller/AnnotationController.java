@@ -32,7 +32,7 @@ public class AnnotationController {
                     )
             ),
             responses = {
-                    @ApiResponse(responseCode = "200", description = "Успешный ответ",
+                    @ApiResponse(responseCode = "200", description = "Успешный ответ!",
                             content = @Content(
                                     mediaType = "application/json",
                                     schema = @Schema(implementation = DataResponse.class)
